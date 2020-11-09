@@ -68,6 +68,15 @@ body {
   margin: 10px;
   font-size: 110%;
 }
+.readbtn {
+  background-color: #c29129;
+  color: black;
+  width: 200px;
+  font-size: 28px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
 
 .footer {
 	position: absolute;
