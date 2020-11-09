@@ -49,6 +49,25 @@ body {
   float: right;
 }
 
+#main {
+  background-color: white;
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.maincontent {
+  text-align: center;
+  margin: 10px;
+  font-size: 110%;
+}
+
 .footer {
 	position: absolute;
 	right: 0;
