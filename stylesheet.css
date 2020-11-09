@@ -12,6 +12,7 @@ body {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 20px;
+  position: sticky;
 }
 
 .sticky-nav a {
