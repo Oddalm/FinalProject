@@ -82,6 +82,32 @@ body {
   text-decoration: none;
   color: black;
 }
+.donate{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputs{
+ text-align: center;
+ font-size: 1vw;
+}
+.inputs input{
+ width: 25vw;
+ height: 8vh;
+ margin: 2vh;
+ border-radius: 5px;
+ font-family: "Roboto", sans-serif;
+}
+.inputs input[type=submit]{
+  font-size: 24px;
+  font-weight: bold;
+}
+.inputs input[type=submit]:hover{
+  background-color: #2b4a22;
+  color: white;
+}
 
 
 .footer {
