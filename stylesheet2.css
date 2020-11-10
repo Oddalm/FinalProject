@@ -81,6 +81,17 @@ body {
   text-decoration: none;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .footer {
 	width: 100%;
     height: 5%;
