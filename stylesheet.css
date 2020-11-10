@@ -111,7 +111,7 @@ body {
   font-weight: bold;
 }
 .inputs input[type=submit]:hover{
-  background-color: #2b4a22;
+  background-color: #c7c7c7;
   color: white;
 }
 
