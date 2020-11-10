@@ -94,8 +94,9 @@ body {
 }
 
 .columnprob {
-  float: left;
-  width: 50%;
+	float: left;
+    width: 47%;
+  margin: 10px;
 }
 
 .rowprob:after {
