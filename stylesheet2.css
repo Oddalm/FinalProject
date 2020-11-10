@@ -160,6 +160,10 @@ body {
 }
 
 @Media screen and (max-width: 750px){
+  .nav {
+    position: absolute;
+  }
+
   .nav a:not(:first-child){
     display: none;
   }
