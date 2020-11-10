@@ -31,6 +31,7 @@ body {
   letter-spacing: 3px;
   font-weight: 700;
   display: block;
+  float: right;
 
 }
 
@@ -45,9 +46,7 @@ body {
   color: white;
 
 }
-
-.nav a:first-child{float: left;}
-.nav a:not(:first-child) {float: right;}
+.nav a:first-child{ float: left;}
 
 
 #main {

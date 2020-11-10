@@ -9,14 +9,15 @@ body {
   font-family: Arial;
 }
 
+
 .nav {
   overflow: hidden;
   background-color: #f1f1f1;
-
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav a {
@@ -31,6 +32,7 @@ body {
   letter-spacing: 3px;
   font-weight: 700;
   display: block;
+  float: right;
 
 }
 
@@ -47,7 +49,7 @@ body {
 }
 
 .nav a:first-child{float: left;}
-.nav a:not(:first-child) {float: right;}
+
 
 #main {
   background-color: white;
@@ -115,7 +117,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
+
 
 .soltekst {
   text-align: center;
