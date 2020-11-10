@@ -112,7 +112,7 @@ body {
 }
 .inputs input[type=submit]:hover{
   background-color: #c7c7c7;
-  color: white;
+  color: black;
 }
 
 h2 {
