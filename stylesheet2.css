@@ -118,6 +118,11 @@ body {
   height: 100%;
 }
 
+.soltekst {
+  text-align: center;
+  line-height: 150%;
+}
+
 .footer {
 	width: 100%;
     height: 5%;
