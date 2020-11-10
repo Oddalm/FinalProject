@@ -6,7 +6,7 @@ body {
   background-image: url(søppel.jpg);
   background-repeat: no-repeat;
 
-  font-family: Arial;
+  font-family: "Lato", sans-serif;
 }
 
 .nav {
@@ -73,8 +73,9 @@ body {
   width: 200px;
   font-size: 28px;
   margin: 10px;
-  border-radius: 5px;
-  font-weight: 700;
+	padding: 5px;
+  border-radius: 20px;
+  font-weight: 600;
 }
 .readbtn a {
   text-decoration: none;
