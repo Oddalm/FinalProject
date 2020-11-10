@@ -49,7 +49,7 @@ body {
 }
 
 .nav a:first-child{float: left;}
-
+}
 
 #main {
   background-color: white;
@@ -58,7 +58,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15vh;
-  margin-bottom: auto;
+  margin-bottom: 15vh;
   display: flex;
   justify-content: center;
   background: rgba(255, 255, 255, 0.7);
@@ -71,22 +71,21 @@ body {
   font-size: 110%;
 
 }
-.readbtn {
-  background-color: #c29129;
-  color: black;
-  width: 200px;
-  font-size: 28px;
-  margin: 10px;
-  border-radius: 5px;
-  font-weight: 700;
-  text-decoration: none;
-}
+
 
 .column {
   float: left;
   width: 47%;
   margin: 10px;
 }
+.column2 {
+  float: left;
+  width: 47%;
+  margin: 10px;
+  clear: left;
+  font-size: 95%;
+}
+
 
 .row:after {
   content: "";
