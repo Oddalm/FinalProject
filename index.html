@@ -4,17 +4,22 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Final Project</title>
   </head>
   <body>
     <header>
-    <div class="sticky-nav">
-      <div class="nav-grid">
+
+      <div class="nav" id="navbar">
+        <a href="index.html">Logo</a>
         <a href="theprob.html">The Problem</a>
         <a href="thesolution.html">The Solution</a>
         <a class="btn" href="donate.html">Donate</a>
+        <a href="javascript:void(0);" class="icon" onclick="minFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-    </div>
+
     </header>
     <div id="main">
         <div class="maincontent">
@@ -32,5 +37,16 @@
     <div class="footer">
     	 <p> Copyright &#169; 2020. All Rights Reserved </p>
     	 </div>
+
+  <script>
+    function minFunction() {
+      var x = document.getElementById("navbar");
+      if (x.className === "nav") {
+        x.className += " hamburger";
+      } else {
+        x.className = "nav";
+      }
+    }
+  </script>
   </body>
 </html>
