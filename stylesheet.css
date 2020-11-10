@@ -68,7 +68,7 @@ body {
 }
 .maincontent {
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   font-size: 110%;
 
 }
@@ -80,6 +80,7 @@ body {
   margin: 10px;
   border-radius: 5px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .footer {
