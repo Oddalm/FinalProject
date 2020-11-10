@@ -72,13 +72,15 @@ body {
 }
 .readbtn {
   background-color: #c29129;
-  color: black;
   width: 200px;
   font-size: 28px;
   margin: 10px;
   border-radius: 5px;
   font-weight: 700;
+}
+.readbtn a {
   text-decoration: none;
+  color: black;
 }
 
 .footer {
