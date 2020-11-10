@@ -92,6 +92,17 @@ body {
   clear: both;
 }
 
+.columnprob {
+  float: left;
+  width: 50%;
+}
+
+.rowprob:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .footer {
 	width: 100%;
     height: 5%;
