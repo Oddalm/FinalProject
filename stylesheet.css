@@ -5,6 +5,7 @@ body {
   height: 100%;
   background-image: url(søppeltest.jpg);
   background-repeat: no-repeat;
+	  background-size: contain;
 
   font-family: "Lato", sans-serif;
 }
