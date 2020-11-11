@@ -104,7 +104,7 @@ p {
 .form{
   width: 50vw;
   height: auto;
-  background-color: #c29129;
+  background-color: #2d9148;
   border-radius: 10px;
   filter: drop-shadow(0px 0px 5px 5px rgba(0, 0, 0, 0.4));
 }
@@ -118,6 +118,7 @@ p {
  margin: 2vh;
  border-radius: 5px;
  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 .inputs input[type=submit]{
   font-size: 24px;
@@ -187,12 +188,13 @@ h2 {
   padding-right: 15px;
 }
 
-@Media screen and (max-width: 750px){
+@Media screen and (max-width: 1000px){
   .form {
     width: 70%;
   }
   .inputs input {
     width: 70%;
+    font-size: 17px;
   }
 }
 @Media screen and (max-height: 550px){
