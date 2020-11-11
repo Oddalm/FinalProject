@@ -124,8 +124,8 @@ h2 {
   z-index: 0;
 }
 .STG {
-  background: rgb(149,212,132);
-background: linear-gradient(0deg, rgba(149,212,132,1) 0%, rgba(114,179,93,1) 51%, rgba(168,223,147,1) 100%);
+  background: rgb(240,174,67);
+background: linear-gradient(0deg, rgba(240,174,67,1) 0%, rgba(172,112,15,1) 42%, rgba(173,113,16,1) 53%, rgba(185,121,17,1) 74%, rgba(224,138,0,1) 100%);
   padding: 20px;
   margin-top: 10px;
   text-align: left;
