@@ -159,7 +159,6 @@ background: linear-gradient(0deg, rgba(240,174,67,1) 0%, rgba(172,112,15,1) 42%,
   width: 70px;
   height: 70px;
   margin: -20px;
-  margin-bottom: -30px;
 }
 
 @media screen and (max-width: 900px) {
@@ -185,8 +184,9 @@ background: linear-gradient(0deg, rgba(240,174,67,1) 0%, rgba(172,112,15,1) 42%,
 }
 
 .logo {
-  width: 1px;
-  height: 1px;
+  width: 70px;
+  height: 70px;
+	margin: -20px;
 }
 
 /* Responsiv navbar opplegg */
