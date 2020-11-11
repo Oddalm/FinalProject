@@ -123,6 +123,11 @@ h2 {
   height: 100%;
   z-index: 0;
 }
+.STG {
+  background-color: #2d9148;
+  padding: 10px;
+  margin-top: 10px;
+}
 
 
 .soltekst {
