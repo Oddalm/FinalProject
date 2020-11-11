@@ -3,7 +3,8 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-image: url(søppelriktig.jpg);
+  background-image: url(søppelriktig.jpg), url("søppelflipriktig.jpg");
+  background-position: top 0px left 0px, top 1250px left 0px;
   background-repeat: no-repeat;
 
   font-family: "Lato", sans-serif;
