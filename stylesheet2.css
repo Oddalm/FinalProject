@@ -42,7 +42,7 @@ body {
 
 
 .nav a.btn {
-  background-color: #2d9148;
+  background-color: #e08a00;
   color: white;
   float: right;
 
@@ -60,7 +60,7 @@ body {
   margin-bottom: 15vh;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 .maincontent {
@@ -73,7 +73,7 @@ body {
 
 h2 {
   font-size: 110%;
-  color: #2d9148;
+  color: #e08a00;
 }
 
 .column {
