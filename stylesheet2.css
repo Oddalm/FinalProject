@@ -31,9 +31,7 @@ body {
   border-radius: 4px;
   letter-spacing: 3px;
   font-weight: 700;
-  display: block;
-  float: right;
-
+  display: inline-block;
 }
 
 .nav a:hover {
@@ -45,10 +43,10 @@ body {
 .nav a.btn {
   background-color: #2a9c1a;
   color: white;
+  float: right;
 
 }
 
-.nav a:first-child{float: left;}
 
 
 #main {
