@@ -42,7 +42,7 @@ body {
 
 
 .nav a.btn {
-  background-color: #2d9148;
+  background-color: #e08a00;
   color: white;
 
 }
@@ -60,7 +60,7 @@ body {
   margin-bottom: auto;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   text-align: center;
 }
 .maincontent {
@@ -71,7 +71,7 @@ body {
 
 }
 .readbtn {
-  background-color: #2d9148;
+  background-color: #e08a00;
   width: 200px;
   font-size: 28px;
   margin: 10px;
