@@ -82,11 +82,10 @@ h2 {
   margin: 10px;
 }
 .column2 {
-  float: left;
+  float: right;
   width: 47%;
-  margin: 10px;
   clear: left;
-  font-size: 95%;
+  border-top: 1px solid black;
 }
 
 
