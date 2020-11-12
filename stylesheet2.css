@@ -90,9 +90,9 @@ h3 a {
   margin: 10px;
 }
 .column2 {
-  float: right;
+  float: left;
   width: 47%;
-  clear: left;
+  clear: right;
   border-top: 1px solid black;
 }
 
