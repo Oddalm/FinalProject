@@ -77,6 +77,12 @@ h2 {
 	backdrop-filter: blur(4px);
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
+h3 a {
+  text-decoration: none;
+  font-size: 120%;
+  color: black;
+  font-weight: bolder;
+}
 
 .column {
   float: left;
@@ -161,7 +167,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   font-size: 1.17em;
   text-align: left;
   border-top: 1px solid black;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .logo {
