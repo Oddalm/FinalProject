@@ -142,20 +142,39 @@ h2 {
   font-weight: 800;
   color: #e08a00
 }
-.gallery {
+.images {
   float: left;
    width: 30%;
-   margin: 5px;
+  margin: 10px;
    text-align: center;
+  padding-left: 15px;
 
 }
 
-.images: after {
+.gallery:after {
   content: "";
   clear: both;
   display: table;
 }
-
+@Media screen and  (max-width: 1520px){
+  .images {
+    width: 28%;
+  }
+}
+@Media screen and (max-width: 1250px) {
+  .images {
+    width: 75%;
+    padding-left: 12%;
+    margin:auto;
+  }
+}
+@Media screen and (max-width: 900px){
+  .images {
+    width: 100%;
+    padding-left: 0;
+    margin: auto;
+  }
+}
 .footer {
 	width: 100%;
     height: 50px;
