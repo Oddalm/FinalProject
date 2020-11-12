@@ -35,6 +35,19 @@ body {
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
   font-weight: 600;
 }
+.knapp {
+  width: 55%;
+  font-size: 18px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: black;
+}
+.knapp a {
+  text-decoration: none;
+  color: white;
+}
 
 .nav a {
   color: black;
@@ -160,14 +173,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   margin-top: 10px;
   text-align: left;
 }
-.STG a{
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  padding: 10px;
-  border-radius: 20px;
-  box-shadow: inset 2px 2px 10px rgba(255, 255, 255, 0.2);
-}
+
 .goal12 {
   float: right;
   margin-top: 40px;
@@ -351,4 +357,27 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 .readbtn:hover span:after {
   opacity: 1;
   padding-left: 7px;
+}
+
+.knapp{
+  font-size: 20px;
+}
+.knapp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+  color:white;
+}
+.knapp span:after {
+  content: '\00BB';
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+.knapp:hover span:after {
+  opacity: 1;
+  padding-right: 5px;
 }
