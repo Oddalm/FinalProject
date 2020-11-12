@@ -201,7 +201,9 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 .logo {
   width: 70px;
   height: 70px;
-	margin: -20px;
+  margin: -20px;
+  margin-bottom: -30px;
+  padding-right: 25px;
 }
 
 /* Responsiv navbar opplegg */
@@ -246,12 +248,13 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   padding-right: 15px;
 }
 
-/* NOSCRIPT GREIER */
 .navigator {
   overflow: hidden;
   background-color: #f1f1f1;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
+  z-index: 1;
+  position: relative;
 }
 .navigator a {
   color: black;
@@ -277,6 +280,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   .navigator a {
     display: block;
     font-size: 20px;
+
   }
   .navigator a:not(:first-child){
     border-top: 1px solid black;
@@ -284,5 +288,9 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   .button {
     float: none;
   }
+}
+
+.fa-bars {
+  padding-right: 10px;
 }
 /* NOSCRIPT GREIER */
