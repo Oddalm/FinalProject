@@ -6,7 +6,7 @@ body {
   background-image: url(søppelriktig.jpg), url("søppelflipriktig.jpg"), url(søppelriktig.jpg), url("søppelflipriktig.jpg"), url(søppelriktig.jpg), url("søppelflipriktig.jpg");
   background-position: top 0px left 0px, top 1250px left 0px, top 2500px left 0px, top 3750px left 0px, top 5000px left 0px, top 6250px left 0px;
   background-repeat: repeat-x;
-
+  
   font-family: "Lato", sans-serif;
 }
 
