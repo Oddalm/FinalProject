@@ -18,6 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:1;
 
 }
 .readbtn {
@@ -223,6 +224,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   }
 }
 
+
 /* FOOTER */
 
 .footer {
@@ -271,21 +273,10 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   list-style-type: none;
 }
 
-.fa-facebook {
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
   padding-right: 3vh;
 }
 
-.fa-instagram {
-  padding-right: 2.3vh;
-}
-
-.fa-twitter {
-  padding-right: 2.3vh;
-}
-
-.fa-youtube {
-  padding-right: 2.5vh;
-}
 
 .footer a {
   padding-top: 20px;
@@ -361,7 +352,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   background-color: #f1f1f1;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   position: relative;
 }
 .navigator a {
