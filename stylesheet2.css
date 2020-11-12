@@ -168,11 +168,11 @@ h3 a {
   z-index: 0;
 }
 .STG {
- background: rgb(176,109,0);
-background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, rgba(193,130,27,1) 53%, rgba(196,129,21,1) 74%, rgba(196,121,1,1) 100%);
   padding: 20px;
   margin-top: 10px;
   text-align: left;
+	background-color:	rgba(204, 213, 222, 0.9);
+  padding: 0px 10px 10px 10px;
 }
 
 .goal12 {
@@ -201,10 +201,6 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 
 }
 
-.SDG {
-  background-color:	rgba(204, 213, 222, 0.9);
-  padding: 0px 10px 10px 10px;
-}
 
 .logo {
   width: 70px;
