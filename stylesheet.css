@@ -17,6 +17,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+
 }
 
 .nav a {
@@ -156,15 +157,14 @@ h2 {
   height: 70px;
   margin: -20px;
   margin-bottom: -30px;
+  padding-right: 25px;
 }
 
 /* Responsiv navbar opplegg */
 .nav .icon {
   display: none;
-
 }
 
-@Media screen and (max-width: 750px){
   .nav a:not(:first-child){
     display: none;
   }
@@ -187,10 +187,27 @@ h2 {
     float: none;
     display: block;
     text-align: left;
+      display: block;
+      float: right;
+    }
+
+    .nav.hamburger {
+      position: relative;
+    }
+    .nav.hamburger .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.hamburger a {
+      float: none;
+      display: block;
+      text-align: left;
+
+
+    }
 
   }
-
-}
 
 .fa-home {
   padding-right: 15px;
@@ -223,6 +240,8 @@ margin-top: 25vh;
   background-color: #f1f1f1;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
+  z-index: 1;
+  position: relative;
 }
 .navigator a {
   color: black;
@@ -248,6 +267,7 @@ margin-top: 25vh;
   .navigator a {
     display: block;
     font-size: 20px;
+
   }
   .navigator a:not(:first-child){
     border-top: 1px solid black;
@@ -255,5 +275,8 @@ margin-top: 25vh;
   .button {
     float: none;
   }
+}
+.fa-bars {
+  padding-right: 10px;
 }
 /* NOSCRIPT GREIER */
