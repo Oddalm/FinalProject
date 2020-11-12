@@ -136,8 +136,12 @@ p {
   background-color: #c7c7c7;
   color: black;
 }
-
 h2 {
+	color: black;
+	text-align: center;
+}
+
+#main h2 {
   text-align: center;
   font-size: 200%;
   font-weight: 800;
