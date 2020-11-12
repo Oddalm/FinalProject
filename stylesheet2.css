@@ -60,7 +60,7 @@ body {
   margin-bottom: 15vh;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   text-align: center;
 }
 .maincontent {
@@ -148,7 +148,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 }
 
 .soltekst {
-  text-align: center;
+  text-align: left;
   line-height: 150%;
 }
 
