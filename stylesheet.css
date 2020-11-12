@@ -141,6 +141,19 @@ h2 {
   font-size: 200%;
   font-weight: 800;
 }
+.gallery {
+  float: left;
+   width: 30%;
+   margin: 5px;
+   text-align: center;
+
+}
+
+.images: after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .footer {
 	width: 100%;
