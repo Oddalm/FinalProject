@@ -165,29 +165,18 @@ h2 {
   display: none;
 }
 
-  .nav a:not(:first-child){
-    display: none;
-  }
 
-  .nav a.icon {
-    display: block;
-    font-size: 25px;
-    float: right;
-  }
+@Media screen and (max-width: 750px){
+    .nav {
+      position: absolute;
+    }
 
-  .nav.hamburger {
-    position: fixed;
-  }
-  .nav.hamburger .icon {
-    position: fixed;
-    right: 0;
-    top: 0;
-  }
-  .nav.hamburger a {
-    float: none;
-    display: block;
-    text-align: left;
+    .nav a:not(:first-child){
+      display: none;
+    }
+    .nav a.icon {
       display: block;
+      font-size: 25px;
       float: right;
     }
 
