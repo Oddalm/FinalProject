@@ -18,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+
 }
 
 .nav a {
@@ -302,7 +302,6 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
     float: none;
   }
 }
-
 .fa-bars {
   padding-right: 5px;
 }
