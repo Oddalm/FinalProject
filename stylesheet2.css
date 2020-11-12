@@ -207,9 +207,8 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 .logo {
   width: 70px;
   height: 70px;
-  margin: -20px;
-  margin-bottom: -30px;
-  padding-right: 25px;
+  margin: -20px -20px -30px -20px;
+  padding-right: 10px;
 }
 
 /* Responsiv navbar opplegg */
@@ -297,6 +296,14 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 }
 
 .fa-bars {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 /* NOSCRIPT GREIER */
+
+@Media screen and (max-width: 300px) {
+  .nav a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
