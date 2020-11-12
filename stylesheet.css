@@ -69,8 +69,9 @@ body {
   margin: 20px;
   padding: 20px;
   font-size: 110%;
-
 }
+
+
 .readbtn {
   background-color: #e08a00;
   width: 200px;
@@ -192,9 +193,9 @@ h2 {
 .logo {
   width: 70px;
   height: 70px;
-  margin: -20px;
-  margin-bottom: -30px;
-  padding-right: 25px;
+  margin: -20px -20px -30px -20px;
+
+  padding-right: 10px;
 }
 
 /* Responsiv navbar opplegg */
@@ -235,9 +236,7 @@ h2 {
 
   }
 
-.fa-home {
-  padding-right: 15px;
-}
+
 
 @Media screen and (max-width: 1000px){
   .form {
@@ -303,6 +302,22 @@ margin-top: 25vh;
   }
 }
 .fa-bars {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 /* NOSCRIPT GREIER */
+
+@Media screen and (max-width: 600px){
+  .maincontent {
+    font-size: 14px;
+  }
+  #main {
+    width: 95%;
+  }
+}
+@Media screen and (max-width: 300px) {
+  .nav a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
