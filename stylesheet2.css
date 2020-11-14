@@ -21,34 +21,6 @@ body {
   z-index:1;
 
 }
-.readbtn {
-  background-color: #e08a00;
-  width: 220px;
-  font-size: 22px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
-  font-weight: 600;
-}
-.readbtn a {
-  text-decoration: none;
-  color: black;
-  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-  font-weight: 600;
-}
-.knapp {
-  width: 60%;
-  font-size: 18px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
-  font-weight: 600;
-  background-color: black;
-}
-.knapp a {
-  text-decoration: none;
-  color: white;
-}
 
 .nav a {
   color: black;
@@ -77,6 +49,37 @@ body {
 
 }
 
+.readbtn {
+  background-color: none;
+  width: 220px;
+  font-size: 22px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 5s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.readbtn a {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  font-weight: 600;
+}
+.knapp {
+  width: 65%;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: none;
+  cursor: pointer;
+}
+.knapp a {
+  text-decoration: none;
+  color: black;
+}
 
 
 #main {
@@ -180,7 +183,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   margin-top: 40px;
   width: 100px;
   height: 110px;
- 
+
 }
 
 .soltekst {
@@ -402,6 +405,10 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 }
 
 /* Button  animation */
+.readbtn:hover {
+  background-color: #e08a00;
+  transition: 0.7s;
+}
 .readbtn span {
   cursor: pointer;
   display: inline-block;
@@ -410,7 +417,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 }
 .readbtn span:after {
   content:'\00BB';
-  position:absolute;
+  position: absolute;
   opacity: 0;
   transition: 0.3s;
 }
@@ -427,12 +434,16 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 .knapp{
   font-size: 20px;
 }
+.knapp:hover {
+  background-color: rgba(253, 236, 216, 0.84);
+}
+
 .knapp span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.3s;
-  color:white;
+  color: black;
 }
 .knapp span:after {
   content: '\00BB';
@@ -440,9 +451,13 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   opacity: 0;
   transition: 0.3s;
 }
+.knapp:hover span {
+  padding-right: 15px;
+}
 
 
 .knapp:hover span:after {
   opacity: 1;
-  padding-right: 5px;
+  padding-right: 7px;
+
 }
