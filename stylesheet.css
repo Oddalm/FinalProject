@@ -42,13 +42,38 @@ body {
 }
 
 
+
 .nav a.btn {
   background-color: #e08a00;
   color: black;
-
-}
-.nav a.btn {
   float: right;
+}
+
+.nav a:hover {
+  background-color: rgba(249, 192, 123, 0.84);
+  border: 1px solid black;
+  transition: 0.7s;
+}
+.nav a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+.nav a span:after {
+  content:'\00BB';
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.nav a:hover span {
+  padding-right: 10px;
+}
+
+.nav a:hover span:after {
+  opacity: 1;
+  padding-left: 7px;
 }
 
 
