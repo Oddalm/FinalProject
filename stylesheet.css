@@ -73,13 +73,14 @@ body {
 
 
 .readbtn {
-  background-color: #e08a00;
+  background-color: rgba(249, 192, 123, 0.84);
   width: 200px;
   font-size: 28px;
   margin: 10px;
 	padding: 5px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 600;
+	cursor: pointer;
 }
 .readbtn a {
   text-decoration: none;
@@ -87,6 +88,33 @@ body {
   text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
   font-weight: 600;
 }
+/*Button animation*/
+.readbtn:hover {
+  background-color: #e08a00;
+  transition: 0.7s;
+}
+.readbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+.readbtn span:after {
+  content:'\00BB';
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.readbtn:hover span {
+  padding-right: 15px;
+}
+
+.readbtn:hover span:after {
+  opacity: 1;
+  padding-left: 7px;
+}
+
 
 h1 {
   font-size: 250%;
@@ -409,25 +437,4 @@ margin-top: 25vh;
   }
 }
 
-/* Button  animation */
-.readbtn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-.readbtn span:after {
-  content:'\00BB';
-  position:absolute;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.readbtn:hover span {
-padding-right: 15px;
-}
-
-.readbtn:hover span:after {
-  opacity: 1;
-  padding-left: 7px;
 }
