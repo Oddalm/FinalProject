@@ -47,29 +47,29 @@ body {
   float: right;
 }
 
-.nav a:hover {
+.nav a.btn:hover {
   background-color: rgba(249, 192, 123, 0.84);
   border: 1px solid black;
   transition: 0.7s;
 }
-.nav a span {
+.nav a.btn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.3s;
 }
-.nav a span:after {
+.nav a.btn span:after {
   content:'\00BB';
   position: absolute;
   opacity: 0;
   transition: 0.3s;
 }
 
-.nav a:hover span {
+.nav a.btn:hover span {
   padding-right: 10px;
 }
 
-.nav a:hover span:after {
+.nav a.btn:hover span:after {
   opacity: 1;
   padding-left: 7px;
 }
