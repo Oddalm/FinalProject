@@ -241,7 +241,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   margin: -20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .column {
     width: 100%;
   }
@@ -487,3 +487,26 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   padding-right: 7px;
 
 }
+
+/* For at kolonner skal opprettholde like størrelser. */
+@Media screen and (max-width: 1850px) and (min-width: 1630px){
+  .column {
+    min-height: 600px;
+  }
+}
+@Media screen and (max-width: 1630px) and (min-width: 1562px){
+  .column  {
+    min-height: 650px;
+  }
+}
+@Media screen and (max-width: 1560px) and (min-width: 1342px){
+  .column {
+    min-height: 700px;
+  }
+}
+@Media screen and (max-width: 1340px) and (min-width: 1101px){
+  .column {
+    min-height: 800px;
+  }
+}
+
