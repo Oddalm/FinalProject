@@ -325,12 +325,15 @@ h2 {
   padding-right: 10px;
 }
 
-@media screen and (max-width: 900px) {
-  .footercolumn { width: 100%;
+@Media screen and (max-width: 900px) {
+  .footercolumn {
+    width: 100%;
   }
+
   .footerlogo {
     margin-left: 4vh;
   }
+}
 
 /* FOOTER SLUTT */
 
