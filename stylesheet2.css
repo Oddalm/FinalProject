@@ -118,7 +118,7 @@ body {
   margin-bottom: 15vh;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   text-align: center;
 }
 .maincontent {
