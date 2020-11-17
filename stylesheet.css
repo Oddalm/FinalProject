@@ -142,7 +142,6 @@ body {
 
 h1 {
   font-size: 250%;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 p {
@@ -237,6 +236,7 @@ h2 {
   }
 }
 /* FOOTER */
+/* FOOTER */
 
 .footer {
   width: 100%;
@@ -251,8 +251,8 @@ h2 {
 
 .footercolumn {
   float: left;
-  width: 30%;
-
+  width: 33%;
+  padding-top: 20px;
 }
 
 .footerrow:after {
@@ -262,13 +262,13 @@ h2 {
 }
 
 .footerheader {
-  font-size: 22px;
+  font-size: 25px;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 10vh;
 }
 
 .footertekst {
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
   margin-left: 10vh;
 }
@@ -280,26 +280,29 @@ h2 {
 }
 
 .footerlogo {
-  font-size: 20px;
-  text-align: right;
+  font-size: 25px;
+  text-align: left;
   list-style-type: none;
-  margin-right: 10%;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+  padding-right: 3vh;
 }
 
 .fa-facebook {
-  margin-right: 1vh;
+  padding-right: 3vh;
 }
 
 .fa-instagram {
-  margin-right: 1vh;
+  padding-right: 2.2vh;
 }
 
 .fa-twitter {
-  margin-right: 1vh;
+  padding-right: 2.3vh;
 }
 
 .fa-youtube {
-  margin-right: 1vh;
+  padding-right: 2.5vh;
 }
 
 .footer a {
@@ -313,7 +316,6 @@ h2 {
   padding-top: 2vh;
   font-size: 18px;
 }
-
 .copyright {
   text-align: center;
   margin-bottom: 2vh;
@@ -325,6 +327,12 @@ h2 {
   height: 70px;
   margin: -20px -20px -30px -20px;
   padding-right: 10px;
+}
+@Media screen and (min-width: 900px){
+.footer ul:last-child {
+  float: right;
+  margin-right: 10vh;
+}
 }
 
 @Media screen and (max-width: 900px) {
