@@ -338,11 +338,9 @@ h2 {
 @Media screen and (max-width: 900px) {
   .footercolumn {
     width: 100%;
+    margin: 0;
   }
-
-  .footerlogo {
-    margin-left: 4vh;
-  }
+  
 }
 
 /* FOOTER SLUTT */
