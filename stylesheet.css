@@ -231,6 +231,16 @@ p {
     width: 20vh;
   }
 }
+@Media screen and (max-width: 1200px){
+  .paypal input[type=image]{
+    width: 25vh;
+  }
+}
+@Media screen and (max-height: 800px){
+  .paypal input[type=image]{
+    width: 25vh;
+  }
+}
 
 
 h2 {
