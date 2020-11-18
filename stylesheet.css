@@ -17,6 +17,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav a {
@@ -160,11 +161,19 @@ p {
   border-radius: 10px;
 	border: 1px solid black;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  padding-bottom: 120px;
+
+
 }
+
+
 
 .inputs{
  text-align: center;
  font-size: 1vw;
+  position: relative;
+  z-index: 0;
+
 }
 .inputs input{
  width: 25vw;
@@ -173,6 +182,7 @@ p {
  border-radius: 5px;
  font-family: "Lato", sans-serif;
   font-size: 20px;
+
 
 }
 .inputs input[type=text]{
@@ -187,6 +197,16 @@ p {
 .inputs input[type=submit]:hover{
   background-color: #c7c7c7;
   color: black;
+}
+
+.paypal {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding-top: 100px;
+
 }
 h2 {
 	color: white;
@@ -421,7 +441,7 @@ margin-top: 25vh;
   background-color: #f1f1f1;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   position: relative;
 }
 .navigator a {

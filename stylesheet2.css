@@ -76,14 +76,13 @@ body {
 
 
 .readbtn {
-  background-color: none;
-  width: 220px;
-  font-size: 22px;
+  background-color: rgba(249, 192, 123, 0.84);
+  width: 200px;
+  font-size: 28px;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
-  transition: 5s;
-  overflow: hidden;
+  font-weight: 600;
   cursor: pointer;
 }
 .readbtn a {
@@ -455,7 +454,6 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 /* Button  animation */
 .readbtn:hover {
   background-color: #e08a00;
-  transition: 0.7s;
 }
 .readbtn span {
   cursor: pointer;
