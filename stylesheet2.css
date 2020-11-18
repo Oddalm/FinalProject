@@ -42,15 +42,15 @@ body {
 }
 
 .nav a.btn {
-  background-color: #e08a00;
+  background-color: #C58113;
   color: black;
   float: right;
 }
 
 .nav a.btn:hover {
   background-color: rgba(249, 192, 123, 0.84);
-  border: 1px solid black;
-  transition: 0.7s;
+  border: 0.5px solid black;
+  transition: 0.5s;
 }
 .nav a.btn span {
   cursor: pointer;
@@ -106,8 +106,7 @@ body {
 .readbtn a {
   text-decoration: none;
   color: black;
-  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-  font-weight: 600;
+  font-weight: 550;
 }
 .knapp {
   width: 65%;
@@ -438,7 +437,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 }
 
 .button {
-  background-color: #e08a00;
+  background-color: #C58113;
   color: white;
   float: right;
 }
@@ -471,7 +470,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
 
 /* Button  animation */
 .readbtn:hover {
-  background-color: #e08a00;
+  background-color: #C58113;
 }
 .readbtn span {
   cursor: pointer;
