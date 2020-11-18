@@ -220,9 +220,18 @@ p {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  padding-top: 100px;
-
+  padding-top: 120px;
 }
+.paypal input[type=image]{
+  height: auto;
+}
+@Media screen and (max-width: 700px){
+  .paypal input[type=image]{
+    width: 20vh;
+  }
+}
+
+
 h2 {
 	color: white;
 	text-align: center;
@@ -427,7 +436,7 @@ h2 {
 
 
 
-@Media screen and (max-width: 1000px){
+@Media screen and (max-width: 1100px){
   .form {
     width: 70%;
   }
