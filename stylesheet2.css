@@ -367,7 +367,12 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   .footerlogo {
     margin-left: 4vh;
   }
-
+  .footerheader {
+    margin-left: 2vh;
+  }
+  .footertekst {
+    margin-left: 2vh;
+  }
 }
 
 /* FOOTER SLUTT */
