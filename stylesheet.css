@@ -108,8 +108,10 @@ body {
 .sources a {
   text-decoration: none;
   color: black;
-  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
-  font-weight: 600;
+  font-weight: 500;
+}
+.sources:hover {
+  background-color: rgb(132, 153, 174);
 }
 .readbtn {
   background-color: rgba(249, 192, 123, 0.84);
