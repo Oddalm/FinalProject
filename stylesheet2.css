@@ -87,7 +87,7 @@ body {
 .sources a {
   text-decoration: none;
   color: black;
-  font-weight: 600;
+  font-weight: 500;
 }
 .sources:hover {
   background-color: rgb(132, 153, 174);
@@ -499,7 +499,7 @@ background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, 
   font-size: 20px;
 }
 .knapp:hover {
-  background-color: rgba(253, 236, 216, 0.84);
+  background-color: rgb(230, 230, 230);
 }
 
 .knapp span {
