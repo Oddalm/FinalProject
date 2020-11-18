@@ -89,6 +89,9 @@ body {
   color: black;
   font-weight: 600;
 }
+.sources:hover {
+  background-color: rgb(132, 153, 174);
+}
 
 .readbtn {
   background-color: rgba(249, 192, 123, 0.84);
