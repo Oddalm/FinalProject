@@ -49,8 +49,6 @@ body {
 
 .nav a.btn:hover {
   background-color: rgba(249, 192, 123, 0.84);
-  border: 0.5px solid black;
-  transition: 0.5s;
 }
 .nav a.btn span {
   cursor: pointer;
