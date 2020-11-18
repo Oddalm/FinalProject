@@ -394,7 +394,15 @@ h2 {
     width: 100%;
     margin: 0;
   }
-
+  .footerheader {
+    margin-left: 2vh;
+  }
+  .footertekst {
+    margin-left: 2vh;
+  }
+  .footer {
+    box-shadow: 0 50vh 0 58vh white;
+  }
 }
 
 /* FOOTER SLUTT */
