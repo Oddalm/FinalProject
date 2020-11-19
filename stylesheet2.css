@@ -201,14 +201,7 @@ h3 a {
   height: 100%;
   z-index: 0;
 }
-.iframe-container iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
+
 .STG {
  background: rgb(176,109,0);
 background: linear-gradient(0deg, rgba(176,109,0,1) 0%, rgba(196,130,23,1) 42%, rgba(193,130,27,1) 53%, rgba(196,129,21,1) 74%, rgba(196,121,1,1) 100%);
