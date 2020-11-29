@@ -188,12 +188,12 @@ p {
 
 /* Donateside design */
 #donate {
-  width: 60%;
+  width: 40%;
   height: auto;
   margin: 15vh auto 15vh auto;
   display: flex;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   text-align: center;
   border-radius: 10px;
   border: 1px solid black;
