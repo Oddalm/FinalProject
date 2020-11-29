@@ -10,6 +10,8 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* Navbar design */
+
 .nav {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -72,7 +74,9 @@ body {
   opacity: 1;
   padding-left: 7px;
 }
+/* Navbar design slutt */
 
+/* Main design */
 
 #main {
   width: 75%;
@@ -93,6 +97,29 @@ body {
   font-size: 110%;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 200%;
+}
+
+#main h2 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: 800;
+  color: #e08a00
+}
+
+h1 {
+  font-size: 250%;
+}
+
+p {
+  font-size: 130%;
+}
+/* Maindesign slutt */
+/* Kildeknapp i footer */
+
 .sources {
   background-color:rgba(204, 213, 222, 0.9);
   width: 200px;
@@ -111,6 +138,9 @@ body {
 .sources:hover {
   background-color: rgb(132, 153, 174);
 }
+/* Kildeknapp i footer slutt */
+/* Read more og Our Solutions knapp */
+
 .readbtn {
   background-color: #C58113;
   width: 200px;
@@ -152,22 +182,15 @@ body {
   opacity: 1;
   padding-left: 7px;
 }
+/* Button animation og Read more slutt */
 
 
-h1 {
-  font-size: 250%;
-}
 
-p {
-  font-size: 130%;
-}
+/* Donateside design */
 #donate {
   width: 60%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  margin: 15vh auto 15vh auto;
   display: flex;
   justify-content: center;
   background: rgba(0, 0, 0, 0.9);
@@ -187,11 +210,14 @@ p {
     width: 75%;
   }
 }
+/* Media screen slutt */
 @Media screen and (max-width: 600px){
   #donate {
     width: 90%;
   }
 }
+/* Media screen slutt */
+
 
 .dontateheader {
   font-size: 50px;
@@ -227,30 +253,49 @@ p {
     width: 20vh;
   }
 }
+
+/* Media screen slutt */
 @Media screen and (max-width: 1200px){
   .paypal input[type=image]{
     width: 25vh;
   }
 }
+/* Media screen slutt */
 @Media screen and (max-height: 800px){
   .paypal input[type=image]{
     width: 25vh;
   }
 }
 
+@Media screen and (max-width: 1100px){
+  .form {
+    width: 70%;
+  }
+  .inputs input {
+    width: 70%;
+    font-size: 17px;
+  }
+}
+/* Media screen slutt */
 
-h2 {
-	color: white;
-	text-align: center;
-	font-size: 200%;
+@Media screen and (max-height: 550px){
+  .form {
+    margin-top:12vh;
+  }
+}
+/* Media screen slutt */
+
+@Media screen and (max-height: 400px){
+  .form {
+    margin-top: 25vh;
+  }
 }
 
-#main h2 {
-  text-align: center;
-  font-size: 200%;
-  font-weight: 800;
-  color: #e08a00
-}
+/* Media screen slutt */
+/* Donate slutt */
+
+/* Bildeserie */
+
 .images {
   float: left;
    width: 30%;
@@ -271,6 +316,8 @@ h2 {
     width: 28%;
   }
 }
+/* Media screen slutt */
+
 @Media screen and (max-width: 1250px) {
   .images {
     width: 75%;
@@ -278,6 +325,7 @@ h2 {
     margin:auto;
   }
 }
+/* Media screen slutt */
 @Media screen and (max-width: 900px){
   .images {
     width: 100%;
@@ -285,7 +333,9 @@ h2 {
     margin: auto;
   }
 }
-/* FOOTER */
+/* Media screen slutt */
+/* Bilder slutt */
+
 /* FOOTER */
 
 .footer {
@@ -335,10 +385,6 @@ h2 {
   list-style-type: none;
 }
 
-.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
-  padding-right: 3vh;
-}
-
 .fa-facebook {
   padding-right: 3vh;
 }
@@ -384,6 +430,7 @@ h2 {
   margin-right: 10vh;
 }
 }
+/* Media screen slutt */
 
 @Media screen and (max-width: 900px) {
   .footercolumn {
@@ -400,16 +447,18 @@ h2 {
     box-shadow: 0 50vh 0 58vh white;
   }
 }
+/* Media screen slutt */
 
 /* FOOTER SLUTT */
 
+/* Logo i navbar */
 .logo {
   width: 70px;
   height: 70px;
   margin: -20px -20px -30px -20px;
-
   padding-right: 10px;
 }
+/* Logo i navbar slutt*/
 
 /* Responsiv navbar opplegg */
 .nav .icon {
@@ -447,31 +496,13 @@ h2 {
 
     }
 
-  }
+}
+/* Media screen slutt */
+/* Responsiv navbar slutt */
 
 
 
-@Media screen and (max-width: 1100px){
-  .form {
-    width: 70%;
-  }
-  .inputs input {
-    width: 70%;
-    font-size: 17px;
-  }
 
-}
-@Media screen and (max-height: 550px){
-.form {
-margin-top:12vh;
-}
-}
-
-@Media screen and (max-height: 400px){
-.form {
-margin-top: 25vh;
-}
-}
 
 
 /* NOSCRIPT GREIER */
@@ -519,7 +550,7 @@ margin-top: 25vh;
 .fa-bars {
   padding-right: 5px;
 }
-/* NOSCRIPT GREIER */
+/* NOSCRIPT GREIER slutt */
 
 @Media screen and (max-width: 600px){
   .maincontent {
