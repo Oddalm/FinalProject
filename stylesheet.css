@@ -201,7 +201,6 @@ p {
 }
 .donatecontent {
   text-align: left;
-  margin: 20px;
   padding: 20px;
   font-size: 110%;
 }
@@ -238,42 +237,25 @@ p {
 }
 
 .paypal {
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  padding-top: 120px;
+  margin:auto;
 }
 .paypal input[type=image]{
   height: auto;
-}
-@Media screen and (max-width: 700px){
-  .paypal input[type=image]{
-    width: 20vh;
-  }
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+
 }
 
-/* Media screen slutt */
-@Media screen and (max-width: 1200px){
-  .paypal input[type=image]{
-    width: 25vh;
-  }
-}
-/* Media screen slutt */
-@Media screen and (max-height: 800px){
-  .paypal input[type=image]{
-    width: 25vh;
-  }
-}
 
 @Media screen and (max-width: 1100px){
   .form {
     width: 70%;
   }
-  .inputs input {
-    width: 70%;
-    font-size: 17px;
+}
+@Media screen and (max-width: 400px){
+  .paypal input[type=image]{
+    width:100%;
   }
 }
 /* Media screen slutt */

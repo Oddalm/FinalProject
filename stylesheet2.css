@@ -149,7 +149,11 @@ body {
 h2 {
   font-size: 110%;
   color: #e08a00;
-  
+}
+h2 a {
+  text-decoration: none;
+  cursor:pointer;
+  color:black;
 }
 h3 a {
   text-decoration: none;
